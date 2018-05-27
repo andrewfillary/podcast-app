@@ -13,34 +13,37 @@
 
   <style type="text/css">
    body {
-   	margin: 0px;
+    margin: 0px;
    }
    h1 {
-   	font-family: impact, arial;
-   	color: #ffd700;
+    font-family: impact, arial;
+    color: #ffd700;
    }
 
    .navbar-default {
-   	background-color: #222;
+    background-color: #222;
    }
    .container-fluid {
-   	padding: 15px;
-   	margin-left: 35px;
+      padding-left:0px;
+      padding-right: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+}
    }
    .navbar-toggle {
-   	margin-top: 20px;
+    margin-top: 20px;
    }
    .navbar-default .navbar-toggle {
-   	border-color: white;
+    border-color: white;
    }
    .navbar-collapse {
-   	padding: 15px;
+    padding: 15px;
    }
    .navbar-header, a:hover{
-   	text-decoration: none;
+    text-decoration: none;
    }
    h1:hover {
-   	color: #ccac00;
+    color: #ccac00;
    }
 
 /*Disables arrows on flickity*/
@@ -56,21 +59,34 @@
    .flickity-page-dots {
     display: none;
    }
-      
+
+   .header {
+      padding: 15px 0px 15px 40px;
+      display:inline-block; width:70%; 
+    }
+
    @media only screen and (max-width: 800px) {
    .container-fluid {
-		margin-left: 35px;
-		margin-right: 15px;
-	}
+    margin-left: 35px;
+    margin-right: 15px;
+  }
+
    @media only screen and (max-width: 480px) {
-   	.container-fluid {
-   		margin-left: 20px;
-   	}
-   	h1 {
-   		font-size: 28px;
-   	}
+    .container-fluid {
+      margin-left: 20px;
+    }
+    h1 {
+      font-size: 35px;
+    }
+
+    .header {
+      text-align: center;
+      padding: 0px 10px 0px 0px;
+      display:inline-block; width:70%; 
+    }
 
   </style>
+  
 </head>
 <body>
 <div style="position: fixed; width: 100%; z-index:1;">
